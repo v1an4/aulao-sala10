@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    
 </head>
 <body>
     <h1>Teste</h1>
@@ -17,19 +19,23 @@
             <h2>calculo simples</h2>
             <input type="number" id="num1" placeholder="insira o primeiro numero">
             <input type="number" id="num2" placeholder="insira o segundo numero">
-            <button class="btn" onclick="calcular()">calcular</button>
+            <button class="btn" onclick="calcular()">Calcular</button>
             <p id="res"></p>
           </section>  
           <section> 
-            <h2>media escolar (7)</h2>
+            <h2>Média escolar (7)</h2>
             <input type="number" id="nota1" placeholder="insira sua  primeira nota">
             <input type="number" id="nota2" placeholder="insira sua  segunda nota">
             <input type="number" id="nota3" placeholder="insira sua  terceira nota">
-            <button class="btn" onclick="media()">Realizar media</button>
+            <button class="btn" onclick="media()">Realizar média</button>
             <p id="resposta"></p>
           </section>
           <section>
              <h2>contador javascript</h2>
+             <label class="style-label" for="numeroInput">Informe o número:</label>
+             <input type="number" id="numeroInput" required>
+             <button class="btn" type="button" onclick="contar()">Contar</button>
+             <p id="result"></p>
           </section>
       </main>
     <script src="script.js"></script>

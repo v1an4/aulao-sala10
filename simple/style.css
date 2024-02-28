@@ -19,11 +19,12 @@
     h1{
         font-weight: 900;
       }
+
     h2{
          font-weight: 400;
          color: aliceblue;
- 
-    }  
+         border-radius: 999px;
+      }  
      
       main{
            display: flex;
@@ -43,6 +44,7 @@
            padding: 20px;
            margin: 40px;
            border-radius: 10px;
+           height: auto;
         }
  
         input{
@@ -74,5 +76,7 @@
             font-size: 2rem;
            }
 
-    
+          .style-label{
+            color: aliceblue;
+          }
         
