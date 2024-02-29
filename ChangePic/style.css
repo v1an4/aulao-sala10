@@ -1,0 +1,16 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+ 
+body{
+    padding: 20px;
+}
+
+.ligtht{
+    background-color: aliceblue;
+}
+
+html{
+    background-color: black;
+}
